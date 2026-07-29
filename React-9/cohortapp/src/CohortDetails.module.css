@@ -1,0 +1,29 @@
+/* CohortDetails.module.css - CSS Module */
+
+.box {
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: rgba(30, 41, 59, 0.85);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  text-align: left;
+}
+
+dt {
+  font-weight: 500;
+  color: #94a3b8;
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+dd {
+  color: #f8fafc;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-left: 0;
+  font-size: 1rem;
+}
