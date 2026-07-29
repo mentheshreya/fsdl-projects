@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreya Menthe | Computer Engineer & Data / ML Developer</title>
+  <meta name="description" content="Portfolio of Shreya Menthe - Computer Engineering Undergraduate specializing in Machine Learning, Data Engineering, REST APIs, and Distributed Systems.">
+  <meta name="keywords" content="Shreya Menthe, Computer Engineering, Machine Learning, Data Engineering, Python, React, GoLang, GDGC PCCOE">
+  <meta name="author" content="Shreya Menthe">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Shreya Menthe | Portfolio">
+  <meta property="og:description" content="Computer Engineering student specializing in Data-Driven Applications & Machine Learning.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Background Particles -->
+  <div class="ambient-glow bg-glow-1"></div>
+  <div class="ambient-glow bg-glow-2"></div>
+  <div class="ambient-glow bg-glow-3"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-header" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand">
+        <span class="brand-logo">&lt;SM /&gt;</span>
+        <span class="brand-name">Shreya Menthe</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#publications" class="nav-link">Publications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="mailto:shreyamenthe@gmail.com" class="btn btn-outline btn-sm">
+          <i class="fa-regular fa-envelope"></i> Contact Me
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-status">
+            <span class="pulse-dot"></span>
+            Available for Data Engineering & ML Opportunities
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Shreya Menthe</span>
+          </h1>
+
+          <h2 class="hero-subtitle">
+            I build <span class="typewriter" id="typewriter"></span>
+          </h2>
+
+          <p class="hero-description">
+            Computer Engineering undergraduate at PCET's PCCOE with a minor in <strong>Generative AI</strong>. Passionate about engineering scalable data pipelines, Machine Learning solutions, and high-performance REST APIs across the full stack.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat-box">
+              <span class="stat-number">8.6</span>
+              <span class="stat-label">B.Tech CGPA</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">94.6%</span>
+              <span class="stat-label">Diploma Result</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">GDGC</span>
+              <span class="stat-label">Management Lead</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">Gen AI</span>
+              <span class="stat-label">Minor Degree</span>
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-rocket"></i> View Projects
+            </a>
+            <a href="mailto:shreyamenthe@gmail.com" class="btn btn-vibrant">
+              <i class="fa-solid fa-paper-plane"></i> Get in Touch
+            </a>
+            <a href="https://linkedin.com/in/shreya-menthe-42a043320" target="_blank" rel="noopener" class="btn btn-icon-only" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/mentheshreya" target="_blank" rel="noopener" class="btn btn-icon-only" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-card glass-panel">
+            <div class="avatar-glow"></div>
+            <img src="assets/images/avatar.jpg" alt="Shreya Menthe" class="avatar-img">
+            <div class="floating-badge badge-top-right">
+              <i class="fa-solid fa-brain"></i> Gen AI Minor
+            </div>
+            <div class="floating-badge badge-bottom-left">
+              <i class="fa-solid fa-code"></i> GDGC Lead '25-26
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">BACKGROUND & FOCUS</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Blending Computer Engineering fundamentals with cutting-edge AI and Data Science</p>
+        </div>
+
+        <div class="grid grid-2-col about-grid">
+          <div class="glass-panel about-card">
+            <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Engineering & Data Focus</h3>
+            <p>
+              I am a Computer Engineering undergraduate with hands-on experience in building data-driven applications, designing scalable backend systems, and deploying machine learning models.
+            </p>
+            <p>
+              My technical drive centres on <strong>Data Engineering</strong>, distributed architectures, and building intelligent RESTful services that process structured and unstructured data effortlessly.
+            </p>
+          </div>
+
+          <div class="glass-panel about-card">
+            <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+            <h3>Leadership & Community</h3>
+            <p>
+              Beyond technical development, I serve as the <strong>Management Lead for the GDGC PCCOE Student Chapter (2025–26)</strong>, driving tech events, workshops, and student mentorship initiatives.
+            </p>
+            <p>
+              I actively participate in hackathons, ACM research programs, and technical summer schools to continuously expand my technical stack.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section-padding" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">TECHNICAL PROFICIENCY</span>
+          <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+          <p class="section-subtitle">Tools, languages, and frameworks I use to solve complex technical problems</p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-bar text-center">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="languages">Languages</button>
+          <button class="filter-btn" data-filter="web">Web & Backend</button>
+          <button class="filter-btn" data-filter="ml">ML & Data</button>
+          <button class="filter-btn" data-filter="tools">Tools & Cloud</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skillsContainer">
+          <!-- Programming Languages -->
+          <div class="skill-card glass-panel" data-category="languages">
+            <div class="skill-icon python-color"><i class="fa-brands fa-python"></i></div>
+            <h4>Python</h4>
+            <span class="skill-level">Advanced / Data Stack</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="languages">
+            <div class="skill-icon java-color"><i class="fa-brands fa-java"></i></div>
+            <h4>Java</h4>
+            <span class="skill-level">Core & OOP</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="languages">
+            <div class="skill-icon cpp-color"><i class="fa-solid fa-code"></i></div>
+            <h4>C / C++</h4>
+            <span class="skill-level">Data Structures</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="languages">
+            <div class="skill-icon golang-color"><i class="fa-brands fa-golang"></i></div>
+            <h4>GoLang</h4>
+            <span class="skill-level">Backend Services</span>
+          </div>
+
+          <!-- Web & Backend -->
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon react-color"><i class="fa-brands fa-react"></i></div>
+            <h4>React.js</h4>
+            <span class="skill-level">Frontend UI</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon node-color"><i class="fa-brands fa-node-js"></i></div>
+            <h4>Node.js & REST APIs</h4>
+            <span class="skill-level">Web Services</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon html-color"><i class="fa-brands fa-html5"></i></div>
+            <h4>HTML5 & CSS3</h4>
+            <span class="skill-level">Responsive Web</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon php-color"><i class="fa-brands fa-php"></i></div>
+            <h4>PHP</h4>
+            <span class="skill-level">Server Scripting</span>
+          </div>
+
+          <!-- ML & Data -->
+          <div class="skill-card glass-panel" data-category="ml">
+            <div class="skill-icon ml-color"><i class="fa-solid fa-brain"></i></div>
+            <h4>Machine Learning & NLP</h4>
+            <span class="skill-level">Scikit-learn, TF-IDF</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="ml">
+            <div class="skill-icon genai-color"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+            <h4>Generative AI</h4>
+            <span class="skill-level">Minor Degree</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="ml">
+            <div class="skill-icon powerbi-color"><i class="fa-solid fa-chart-pie"></i></div>
+            <h4>Power BI & Data Analytics</h4>
+            <span class="skill-level">Visualization</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="ml">
+            <div class="skill-icon db-color"><i class="fa-solid fa-database"></i></div>
+            <h4>DBMS & SQL</h4>
+            <span class="skill-level">Relational Data</span>
+          </div>
+
+          <!-- Tools & Cloud -->
+          <div class="skill-card glass-panel" data-category="tools">
+            <div class="skill-icon aws-color"><i class="fa-brands fa-aws"></i></div>
+            <h4>AWS Cloud</h4>
+            <span class="skill-level">Cloud Services</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="tools">
+            <div class="skill-icon git-color"><i class="fa-brands fa-git-alt"></i></div>
+            <h4>Git & GitHub</h4>
+            <span class="skill-level">Version Control</span>
+          </div>
+
+          <div class="skill-card glass-panel" data-category="tools">
+            <div class="skill-icon figma-color"><i class="fa-brands fa-figma"></i></div>
+            <h4>Figma</h4>
+            <span class="skill-level">UI/UX Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section section-padding" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">PORTFOLIO WORK</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications built with AI, Machine Learning, and Modern Web Stacks</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card glass-panel highlight-border">
+            <div class="project-header">
+              <span class="project-badge badge-ml">Machine Learning / NLP</span>
+            </div>
+            <h3 class="project-title">SMS Spam Detection System</h3>
+            <p class="project-description">
+              Built and deployed an end-to-end SMS spam classification system using NLP techniques and Scikit-learn models. Implemented data preprocessing, TF-IDF feature extraction, and model evaluation pipeline.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Scikit-learn</span>
+              <span class="tech-tag">NLP / TF-IDF</span>
+              <span class="tech-tag">Git</span>
+            </div>
+
+            <div class="project-actions">
+              <a href="https://ijarcce.com/wp-content/uploads/2024/03/IJARCCE.2024.13307.pdf" target="_blank" rel="noopener" class="btn btn-sm btn-outline">
+                <i class="fa-solid fa-file-pdf"></i> Read Publication (IJARCCE)
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card glass-panel">
+            <div class="project-header">
+              <span class="project-badge badge-ai">AI & Vision</span>
+            </div>
+            <h3 class="project-title">Eco-Snap – AI Receipt Scanner</h3>
+            <p class="project-description">
+              AI-powered receipt scanning system using Optical Character Recognition (OCR). Automatically extracts structured expense data (vendor name, date, total amount) from images, reducing manual data entry effort.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">React.js</span>
+              <span class="tech-tag">Python / Node.js</span>
+              <span class="tech-tag">OCR</span>
+              <span class="tech-tag">REST APIs</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-sm btn-outline modal-trigger" data-project="ecosnap">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card glass-panel">
+            <div class="project-header">
+              <span class="project-badge badge-web">Safety & Web App</span>
+            </div>
+            <h3 class="project-title">Safe Routes – Women & Child Safety App</h3>
+            <p class="project-description">
+              Web application designed to promote safe travel for women and children. Integrates local danger zone mapping, nearby emergency service access, real-time location tracking, and route safety indicators.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">GoLang</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">HTML / CSS</span>
+              <span class="tech-tag">Google Maps API</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-sm btn-outline modal-trigger" data-project="saferoutes">
+                <i class="fa-solid fa-circle-info"></i> Project Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Experience Timeline -->
+    <section class="education-section section-padding" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">ACADEMIC JOURNEY</span>
+          <h2 class="section-title">Education & <span class="gradient-text">Qualifications</span></h2>
+          <p class="section-subtitle">Academic record across Diploma & Engineering degrees</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item glass-panel">
+            <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Pursuing (2024 - Present)</span>
+              <h3>B.TECH in Computer Engineering</h3>
+              <p class="institution">PCET's Pimpri Chinchwad College of Engineering (PCCOE)</p>
+              <div class="timeline-highlight">
+                <span><strong>CGPA:</strong> 8.6</span>
+                <span class="badge-minor">Minor: Generative AI</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item glass-panel">
+            <div class="timeline-dot"><i class="fa-solid fa-certificate"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Completed 2024</span>
+              <h3>Diploma in Computer Technology</h3>
+              <p class="institution">Bharati Vidyapeeth Jawaharlal Nehru Institute of Technology</p>
+              <div class="timeline-highlight">
+                <span><strong>Result:</strong> 94.6% (First Class with Distinction)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item glass-panel">
+            <div class="timeline-dot"><i class="fa-solid fa-laptop"></i></div>
+            <div class="timeline-content">
+              <span class="timeline-date">ACM Summer School</span>
+              <h3>ACM Summer School 2024</h3>
+              <p class="institution">Kalasalingam Academy of Research and Education, Madurai</p>
+              <p class="timeline-desc">Specialized technical training program in IoT and Next Generation Networks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements & Leadership -->
+    <section class="achievements-section section-padding" id="achievements">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">HONORS & LEADERSHIP</span>
+          <h2 class="section-title">Leadership & <span class="gradient-text">Certifications</span></h2>
+          <p class="section-subtitle">Campus leadership roles and professional credentials</p>
+        </div>
+
+        <div class="grid grid-2-col">
+          <!-- Leadership Card -->
+          <div class="glass-panel info-card">
+            <div class="info-card-header">
+              <i class="fa-solid fa-users-gear highlight-icon"></i>
+              <h3>Campus Leadership</h3>
+            </div>
+            <ul class="achievement-list">
+              <li>
+                <div class="achieve-badge">Management Lead</div>
+                <div>
+                  <strong>GDGC PCCOE Student Chapter (2025-26)</strong>
+                  <p>Leading Google Developer Groups on Campus student chapter activities, technical workshops, and team coordination.</p>
+                </div>
+              </li>
+              <li>
+                <div class="achieve-badge">Attendee</div>
+                <div>
+                  <strong>ACM Summer School (2024)</strong>
+                  <p>Participated in intensive IoT and Next Generation Networks training at Kalasalingam Academy of Research and Education.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Certifications Card -->
+          <div class="glass-panel info-card">
+            <div class="info-card-header">
+              <i class="fa-solid fa-award highlight-icon"></i>
+              <h3>Verified Certifications</h3>
+            </div>
+            <ul class="cert-list">
+              <li>
+                <i class="fa-solid fa-circle-check cert-check"></i>
+                <div>
+                  <strong>IoT and Next Gen Networks</strong>
+                  <span>ACM Summer School</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check cert-check"></i>
+                <div>
+                  <strong>Barclays Life Skills Program</strong>
+                  <span>Barclays Skill Academy</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check cert-check"></i>
+                <div>
+                  <strong>Data Analytics Certification</strong>
+                  <span>Udemy</span>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-check cert-check"></i>
+                <div>
+                  <strong>Java Course Certification</strong>
+                  <span>Udemy</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publication Highlight Section -->
+    <section class="publications-section section-padding" id="publications">
+      <div class="container">
+        <div class="glass-panel publication-banner">
+          <div class="pub-icon">
+            <i class="fa-solid fa-newspaper"></i>
+          </div>
+          <div class="pub-content">
+            <span class="pub-tag">RESEARCH PUBLICATION</span>
+            <h3>SMS Spam Detection Using Machine Learning</h3>
+            <p>
+              Published in the <em>International Journal of Advanced Research in Computer and Communication Engineering (IJARCCE)</em>, Vol. 13, Issue 3, March 2024.
+            </p>
+            <a href="https://ijarcce.com/wp-content/uploads/2024/03/IJARCCE.2024.13307.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+              <i class="fa-solid fa-file-pdf"></i> Read Publication (PDF)
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">Open for Data Engineering, Machine Learning, and Software Engineering opportunities</p>
+        </div>
+
+        <div class="contact-centered-card glass-panel">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out via email, phone, or connect on LinkedIn and GitHub.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="contact-label">Email</span>
+                <a href="mailto:shreyamenthe@gmail.com" class="contact-value">shreyamenthe@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div>
+                <span class="contact-label">Phone</span>
+                <a href="tel:+917249519292" class="contact-value">(+91) 7249519292</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/shreya-menthe-42a043320" target="_blank" rel="noopener" class="contact-value">shreya-menthe-42a043320</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <a href="https://github.com/mentheshreya" target="_blank" rel="noopener" class="contact-value">github.com/mentheshreya</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:shreyamenthe@gmail.com" class="btn btn-vibrant">
+              <i class="fa-regular fa-envelope"></i> Send Email
+            </a>
+            <button id="copyEmailBtn" class="btn btn-outline">
+              <i class="fa-regular fa-copy"></i> Copy Email Address
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Shreya Menthe. Computer Engineering Portfolio.</p>
+      <div class="footer-links">
+        <a href="https://github.com/mentheshreya" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com/in/shreya-menthe-42a043320" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:shreyamenthe@gmail.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Component for Project Info -->
+  <div class="modal-backdrop hidden" id="projectModal">
+    <div class="modal-content glass-panel">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
